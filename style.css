@@ -47,14 +47,12 @@ header a img {
 	height: auto;
 	z-index: -5;
 	width: auto;
-	display: block
+	display: block;
 	/* TEST (looks to be working)*/
 	position: absolute;
-    top: -1999px;
-    bottom: -1820px;
-    left: -1999px;
-    right: -1999px;
-    margin:auto;
+   	left: -1999px;
+    	right: -1999px;
+  	margin:auto;
 
 }
 nav {
