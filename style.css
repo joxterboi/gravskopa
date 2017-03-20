@@ -8,6 +8,10 @@ body, html {
 	min-height: 100vh;
 	min-width: 180px;
 }
+span {
+	max-width: 100%;
+	overflow: hidden;
+}
 header {
 	height:500px;
 	width:100%;
@@ -34,6 +38,7 @@ header a img {
 	float:left;
 	z-index: 1;
 	position: absolute;
+	overflow: hidden;
 }
 .secondPic {
 	min-width:100%;
@@ -42,12 +47,13 @@ header a img {
 	height: auto;
 	z-index: -5;
 	width: auto;
+	display: block
 	/* TEST (looks to be working)*/
 	position: absolute;
-    top: -9999px;
-    bottom: -9820px;
-    left: -9999px;
-    right: -9999px;
+    top: -1999px;
+    bottom: -1820px;
+    left: -1999px;
+    right: -1999px;
     margin:auto;
 
 }
