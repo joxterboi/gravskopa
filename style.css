@@ -41,8 +41,15 @@ header a img {
 	overflow: hidden;
 	height: auto;
 	z-index: -5;
-	position: fixed;
 	width: auto;
+	/* TEST (looks to be working)*/
+	position: absolute;
+    top: -9999px;
+    bottom: -9820px;
+    left: -9999px;
+    right: -9999px;
+    margin:auto;
+
 }
 nav {
 	margin-top: -22px;
