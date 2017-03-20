@@ -84,10 +84,10 @@ li a:hover {
 	margin: 0 auto;
 }
 #schema p {
-	margin-left: 10%;
-	margin-bottom: 20px;
-	font-size: 14px;
-	font-weight: 500;
+	margin-left: 0;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: 300;
 }
 
 
