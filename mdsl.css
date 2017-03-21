@@ -1,0 +1,139 @@
+/*body, div, header, nav, input, button, a, p, h1, h2, h3, h4, h5, h6, i, img, footer, form {
+	margin: 0;padding: 0;border:0;font-family: roboto;
+}
+*/
+/*.container {
+	width:1300px;
+	height: 800px;
+	margin: auto;
+	border:1px solid #000;
+	text-align: center;
+	color:#fff;
+	margin-top: 20px;
+}*/
+
+
+/* BUTTONS */
+button:focus {outline:0;}
+
+/*---------------Button----------------*/
+button.button {
+	height:36px;
+	min-width: 64px;
+	font-family: roboto;
+	font-weight: 500;
+	font-size: 14px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+	border:none;
+	background-color: #E91E63;
+	color:#fff;
+	padding:0 16px 0 16px;
+	border:1px solid #E91E63;
+	border-radius: 2px;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	line-height: 36px;
+   	vertical-align: middle;
+   	transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1);
+}
+button.button:hover{
+	cursor: pointer;
+}
+button.button:active{
+	box-shadow:0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+/*---------------Fab----------------*/
+button.fab {
+	display: block;
+	height: 56px;
+	width: 56px;
+	border:1px solid #FF4081;
+	border-radius: 50%;
+	background-color: #FF4081;
+	color:#fff;
+	font-size: 24px;
+	font-family: roboto;
+	box-shadow:0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
+}
+button.fab:hover{
+	cursor: pointer;
+}
+button.fab:active{
+	box-shadow:0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+/***********************HEADER*****************************************/
+/*header {
+	height:144px;
+	background-color: #3F51B5;
+	position: relative;
+	margin-top: 0;
+}*/
+
+
+
+
+
+
+/**************************NAV*********************************/
+/*.navigation {
+	height:64px;
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: : 0;
+	overflow: hidden;
+}
+nav {
+	height: 85px;
+	padding: 0 16px 0 24px;
+	background-color: #3F51B5;
+	width: 100%;
+	overflow-y: hidden;
+	display: flex;
+	overflow-x: auto;
+	flex-wrap: nowrap;
+    	box-sizing: border-box;
+    	margin-bottom: -16px;
+}
+nav a{
+	line-height: 64px;
+	padding:0 16px;
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: roboto;
+	font-size: 13px;
+	font-weight: 500;
+	opacity: 0.65;
+	height: 64px;
+	display: flex;
+	box-sizing: border-box;
+}
+nav a.active {
+	border-bottom: 3px solid #FF4081;
+	opacity:1;
+}
+nav a:hover {
+	opacity: 1;
+}
+*/
+/*********************MENU*************************************/
+/*.menu {
+	height:48px;
+	width: 48px;
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+	margin: auto;
+	display: block;
+	margin:8px 12px;
+	top: 0;
+	left: 0;
+}
+.menu i{
+	font-size: 26px ;
+	vertical-align: middle;
+}*/
