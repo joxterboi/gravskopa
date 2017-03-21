@@ -26,19 +26,29 @@ header {
 	height:auto;
 	width: auto;
 }
-header a {
+header p {
 	position: absolute;
-	line-height: 600px;
-	margin-top: 200px;
-	margin-left: 10%
+	margin-top: 160px;
+	margin-left: 5%
 }
 header a img {
-	width:450px;
+	width:160px;
 	height: auto;
 	float:left;
 	z-index: 1;
 	position: absolute;
 	overflow: hidden;
+}
+header a.text{
+	margin-left: 180px;
+	position: absolute;
+	outline: 3px;
+	color:#fff;
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 50px;
+	width: 400px;
+	line-height: 160px;
 }
 .secondPic {
 	min-width:100%;
@@ -154,6 +164,9 @@ footer {
 	margin-bottom: 20px
 }
 #program p {
+	margin-bottom: 10px;
+}
+#program button {
 	margin-bottom: 80px;
 }
 
@@ -305,4 +318,50 @@ h4 {
 
 #how img {
 	width: 100%;
+}
+
+
+
+
+
+/*Inriktningar*/
+
+#inrik {
+	background-color: #fff;
+}
+#inrikt h1{
+	margin-bottom: 30px;
+	margin-top: 20px;
+	font-size: 45px
+}
+#inrikt h2 {
+	font-weight: 300;
+	margin-bottom: 25px;
+	font-size: 27px
+}
+#inrikt .over-text {
+	width: 600px;
+	margin: auto;
+	margin-bottom: 80px;
+	font-weight: 300;
+	font-size: 18px
+}
+
+
+.program-beskrivning {
+	width:600px;
+	margin: auto;
+}
+.back {
+	width: 100%;
+	background-color: #fff;
+	margin-top: -60px;
+}
+.program-beskrivning img {
+	width:50%;
+	float:right;
+}
+.program-beskrivning p {
+	font-weight: 300;
+	font-size: 18px
 }
