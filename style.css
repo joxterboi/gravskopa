@@ -49,6 +49,7 @@ header a.text{
 	font-size: 50px;
 	width: 400px;
 	line-height: 160px;
+	text-shadow: 1px 1px #000
 }
 .secondPic {
 	min-width:100%;
