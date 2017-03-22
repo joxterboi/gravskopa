@@ -61,7 +61,7 @@ header a.text{
 	/* TEST (looks to be working)*/
 	position: absolute;
    	left: -1999px;
-    	right: -1999px;
+    right: -1999px;
   	margin:auto;
 
 }
@@ -197,81 +197,10 @@ h4 {
   min-height: 300px;
 }
 
-/* MEDIA QUARY */
-@media screen and (max-width: 960px){
-  header {
-    height:300px;
-  }
-  header a img{
-    width:300px;
-    margin-top: -100px
-  }
-  header a {
-    line-height:300px;
-  }
-  footer {
-    position:relative ! important;
-  }
-  #program {
-	column-count: 1
-  }
-}
 
 
-@media screen and (max-width: 700px) {
-	nav ul li a{
-		display: block;
-		border-bottom: solid #388E3C 1px;
-		padding: 20px 0;
-		font-size: 17px;
-		font-weight: 300;
-		width:auto;
-	}
-	nav ul{
-		padding: 0
-	}
-	header a img {
-		position: absolute;
-		margin-top: -22vw;
-		margin-left:5vw ;
-		width:70vw;
-	}
-	.content {
-		width: 90vw;
-		margin-left:5vw;
-	}
-	.content h4 {
-		width: 100%
-	}
-	footer {
-		position: absolute;
-		margin-top: 100px
-	}
-	.activeTab {
-		border-bottom: solid #388E3C 1px;
-	}
-	#program {
-		column-count: 1
-	}
-	#program p {
-		text-align: left;
-		font-weight: 300;
-		font-size: 17px
-	}
-	#programInfo {
-		width: 100%;
-		margin-left: 0;
-	}
-	header {
-		width:100%;
-	}
-	#header img{
-		width:200%;
-		height: auto;
-		min-height: auto;
-		max-height: auto;
-	}
-}
+
+
 @media screen and (max-width: 580px) {
 	#header img {
 		width:auto;
@@ -364,4 +293,90 @@ h4 {
 .program-beskrivning p {
 	font-weight: 300;
 	font-size: 18px
+}
+
+
+
+
+/* MEDIA QUARY */
+@media screen and (max-width: 960px){
+  header {
+    height:300px;
+  }
+  header a img{
+    width:170px;
+    margin-top: -100px
+  }
+  header a {
+    line-height:300px;
+  }
+  footer {
+    position:relative ! important;
+  }
+  #program {
+	column-count: 1
+  }
+}
+
+@media screen and (max-width: 700px) {
+	nav ul li a{
+		display: block;
+		border-bottom: solid #388E3C 1px;
+		padding: 20px 0;
+		font-size: 17px;
+		font-weight: 300;
+		width:auto;
+	}
+	nav ul{
+		padding: 0
+	}
+	header a img {
+		position: absolute;
+		margin-left: 29.4vw;
+		width:30vw;
+	}
+	.content {
+		width: 90vw;
+		margin-left:5vw;
+	}
+	.content h4 {
+		width: 100%
+	}
+	footer {
+		position: absolute;
+		margin-top: 100px
+	}
+	.activeTab {
+		border-bottom: solid #388E3C 1px;
+	}
+	#program {
+		column-count: 1
+	}
+	#program p {
+		text-align: left;
+		font-weight: 300;
+		font-size: 17px
+	}
+	#programInfo {
+		width: 100%;
+		margin-left: 0;
+	}
+	header {
+		width:100%;
+	}
+	header a.text {
+		display: none;
+	}
+	#header img{
+		width:200%;
+		height: auto;
+		min-height: auto;
+		max-height: auto;
+	}
+	.program-beskrivning {
+		width:100%;
+	}
+	#inrikt .over-text {
+		width:100%
+	}
 }
